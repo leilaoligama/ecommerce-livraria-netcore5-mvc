@@ -5,6 +5,8 @@ namespace Livraria.Models
 {
     public class Pedido : Base
     {
+        public int CadastroId { get; set; }
+
         public Pedido()
         {
             Cadastro = new Cadastro();

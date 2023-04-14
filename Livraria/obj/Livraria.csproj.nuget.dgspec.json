@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leila.gomes\\source\\repos\\Ecommerce\\Livraria\\Livraria.csproj": {}
+    "C:\\Users\\Leila\\source\\repos\\Alura\\E-Commerce Livraria\\ecommerce-livraria-netcore5-mvc\\Livraria\\Livraria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leila.gomes\\source\\repos\\Ecommerce\\Livraria\\Livraria.csproj": {
+    "C:\\Users\\Leila\\source\\repos\\Alura\\E-Commerce Livraria\\ecommerce-livraria-netcore5-mvc\\Livraria\\Livraria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leila.gomes\\source\\repos\\Ecommerce\\Livraria\\Livraria.csproj",
+        "projectUniqueName": "C:\\Users\\Leila\\source\\repos\\Alura\\E-Commerce Livraria\\ecommerce-livraria-netcore5-mvc\\Livraria\\Livraria.csproj",
         "projectName": "Livraria",
-        "projectPath": "C:\\Users\\leila.gomes\\source\\repos\\Ecommerce\\Livraria\\Livraria.csproj",
-        "packagesPath": "C:\\Users\\leila.gomes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leila.gomes\\source\\repos\\Ecommerce\\Livraria\\obj\\",
+        "projectPath": "C:\\Users\\Leila\\source\\repos\\Alura\\E-Commerce Livraria\\ecommerce-livraria-netcore5-mvc\\Livraria\\Livraria.csproj",
+        "packagesPath": "C:\\Users\\Leila\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leila\\source\\repos\\Alura\\E-Commerce Livraria\\ecommerce-livraria-netcore5-mvc\\Livraria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\leila.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Leila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,16 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
             }
           },
           "imports": [
@@ -51,8 +61,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
         }
       }
     }
