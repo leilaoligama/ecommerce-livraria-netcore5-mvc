@@ -2,7 +2,7 @@
 
 namespace Livraria.Models
 {
-    public class ItemPedido : Base
+    public class ItemPedido : BaseModel
     {
         [Required]
         public Pedido Pedido { get; private set; }

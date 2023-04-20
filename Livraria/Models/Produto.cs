@@ -2,7 +2,7 @@
 
 namespace Livraria.Models
 {
-    public class Produto : Base
+    public class Produto : BaseModel
     {
         public Produto() { }
 

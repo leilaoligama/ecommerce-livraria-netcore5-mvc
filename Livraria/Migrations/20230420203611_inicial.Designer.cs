@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Livraria.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20230413202529_criacao-tabelas")]
-    partial class criacaotabelas
+    [Migration("20230420203611_inicial")]
+    partial class inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

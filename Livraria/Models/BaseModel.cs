@@ -3,7 +3,7 @@
 namespace Livraria.Models
 {
     [DataContract]
-    public class Base
+    public class BaseModel
     {
         [DataMember]
         public int Id { get; protected set; }

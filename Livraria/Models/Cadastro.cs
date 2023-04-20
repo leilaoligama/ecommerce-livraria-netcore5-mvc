@@ -2,7 +2,7 @@
 
 namespace Livraria.Models
 {
-    public class Cadastro : Base
+    public class Cadastro : BaseModel
     {
         public Cadastro()
         {

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Livraria.Models
 {
-    public class Pedido : Base
+    public class Pedido : BaseModel
     {
         public int CadastroId { get; set; }
 
